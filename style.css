@@ -1,0 +1,23 @@
+
+:root {
+    --red-primary: #000;
+    --blue-primary: #000;
+    --yellow-primary: #000;
+    --green-primary: #000;
+    
+    --red-dark: #000;
+    --blue-dark: #000;
+    --yellow-dark: #000;
+    --green-dark: #000;
+
+    --beige: #000;
+    --brown: #000;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
