@@ -51,6 +51,20 @@ body {
         transparent 65px );
 }
 
+.title {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    /* margin-bottom: 2rem; */
+}
+
+.title h1 {
+    font-size: 6rem;
+    font-family: var(--heading-font);
+    color: var(--purple-primary);
+    line-height: 1.5;
+    /* text-decoration: underline dashed 8px var(--purple-dark); */
+}
 
 /* ============================================================================== */
 nav {
@@ -161,19 +175,19 @@ nav ul li:hover ul.nav-dropdown {
     /* text-align: center; */
 }
 
-#hero h1 .blue {
+.blue {
     color: var(--blue-primary);
 }
 
-#hero h1 .yellow {
+.yellow {
     color: var(--yellow-primary);
 }
 
-#hero h1 .red {
+.red {
     color: var(--red-primary);
 }
 
-#hero h1 .green {
+.green {
     color: var(--green-primary);
 }
 
@@ -195,3 +209,65 @@ nav ul li:hover ul.nav-dropdown {
 
 /* ============================================================================== */
 
+#about {
+    /* background-color: coral; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#about .top-row {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+#about .top-row .profile {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#about .top-row .profile img {
+    width: 100%;
+    height: 100%;
+}
+
+#about .about-text {
+    /* background-color: coral; */
+    border: 5px dashed var(--purple-primary);
+    border-radius: 8px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 1.5rem 2.5rem;
+}
+
+#about  .about-text .about-text-detail {
+    line-height: 1.5;
+}
+
+#about .about-text .about-text-detail h3 {
+    font-size: 1.4rem;
+    font-family: var(--body-font);
+    letter-spacing: 1px;
+    color: var(--purple-dark);
+}
+
+#about  .about-text .about-text-detail p {
+    font-size: 1.25rem;
+    color: var(--blue-dark);
+}
+
+#about .bottom-row {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
