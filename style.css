@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
     --red-primary: #ee1c25;
@@ -17,7 +18,10 @@
     /* --brown: #0a3a40; */
     --white: #efebe0;
 
-    font-family: sans-serif;
+    --heading-font: "Rubik", sans-serif;
+    --body-font: "Fredoka", sans-serif;
+
+    font-family: "Fredoka", sans-serif;
 }
 
 *,
@@ -35,17 +39,31 @@ body {
     min-height: 100vh;
 }
 
+.divider {
+    width: 100%;
+    height: 10px; /* Thickness of the divider */
+    border: none;
+    background: repeating-linear-gradient(
+        to right,
+        var(--purple-dark),
+        var(--purple-dark) 45px, /* Length of each dash */
+        transparent 40px,
+        transparent 65px );
+}
 
-/* =================================== */
+
+/* ============================================================================== */
 nav {
     width: 90%;
     
-    position: sticky;
+    position: fixed;
     top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
     margin: 0 auto;
 
 
-    background-color: var(--purple-primary);
+    background-color: var(--purple-dark);
     color: var(--white);
     padding: 0.75rem 1.25rem;
     border-radius: 12px;
@@ -62,12 +80,12 @@ nav ul {
 nav ul li {
     position: relative;
     display: inline-block;
-    margin-right: 0.75rem;
+    /* margin-right: 0.5rem; */
 }
 
 nav ul li a {
     display: block;
-    padding: 0.75rem 1.75rem;
+    padding: 0.5rem 1.75rem;
     text-decoration: none;
     text-align: center;
     /* background-color: var(--purple-dark); */
@@ -95,9 +113,9 @@ nav ul li ul.nav-dropdown li {
     /* border-radius: 0; */
 }
 
-nav ul li ul.nav-dropdown li a {
-    /* border-radius: 0; */
-}
+/*👉nav ul li ul.nav-dropdown li a {
+    ➡ border-radius: 0; ⬅
+}👈*/
 
 nav ul li a:hover {
     /* color: blueviolet; */
@@ -106,4 +124,70 @@ nav ul li a:hover {
 
 nav ul li:hover ul.nav-dropdown {
     display: block;
+}
+
+
+
+/* ============================================================================== */
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: cornflowerblue; */
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* gap: rem; */
+
+    text-align: center;
+}
+
+/*👉#hero .hero-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}👈*/
+
+#hero h1 {
+    font-size: 12rem;
+    font-family: var(--heading-font);
+    font-weight: 900;
+    /* letter-spacing: 5px; */
+    line-height: 1;
+    /* text-align: center; */
+}
+
+#hero h1 .blue {
+    color: var(--blue-primary);
+}
+
+#hero h1 .yellow {
+    color: var(--yellow-primary);
+}
+
+#hero h1 .red {
+    color: var(--red-primary);
+}
+
+#hero h1 .green {
+    color: var(--green-primary);
+}
+
+#hero .hero-info {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* background-color: #004588; */
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--purple-dark);
+}
+
+#hero .hero-info .hero-info-label {
+    font-weight: 600;
 }
