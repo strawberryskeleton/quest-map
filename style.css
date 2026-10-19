@@ -1,17 +1,23 @@
 
 :root {
-    --red-primary: #000;
-    --blue-primary: #000;
-    --yellow-primary: #000;
-    --green-primary: #000;
+    --red-primary: #ee1c25;
+    --blue-primary: #0075b5;
+    --yellow-primary: #feb415;
+    --green-primary: #33a244;
     
-    --red-dark: #000;
-    --blue-dark: #000;
-    --yellow-dark: #000;
-    --green-dark: #000;
+    --red-dark: #b01116;
+    --blue-dark: #004588;
+    --yellow-dark: #d8611d;
+    --green-dark: #026d37;
 
-    --beige: #000;
-    --brown: #000;
+    /* --beige: #f3e9dc; */
+    /* --brown: #1e1b4b; */
+    --purple-primary: #7f64e3;
+    --purple-dark: #5d42be;
+    /* --brown: #0a3a40; */
+    --white: #efebe0;
+
+    font-family: sans-serif;
 }
 
 *,
@@ -25,22 +31,24 @@
 
 
 body {
-    background-color: bisque;
+    background-color: var(--white);
     min-height: 100vh;
 }
 
 
 /* =================================== */
 nav {
-    width: 80%;
+    width: 90%;
     
     position: sticky;
     top: 1.5rem;
     margin: 0 auto;
 
 
-    background-color: cornflowerblue;
-    padding: 0.5rem 1.25rem;
+    background-color: var(--purple-primary);
+    color: var(--white);
+    padding: 0.75rem 1.25rem;
+    border-radius: 12px;
 
     display: flex;
     justify-content: space-between;
@@ -62,13 +70,21 @@ nav ul li a {
     padding: 0.75rem 1.75rem;
     text-decoration: none;
     text-align: center;
-    background-color: coral;
+    /* background-color: var(--purple-dark); */
+    color: var(--white);
+    border-radius: 8px;
+    /* text-decoration: 1.5px underline wavy var(--white); */
 }
 
 nav ul li ul.nav-dropdown {
-    width: 100%;
-    background-color: aquamarine;
+    width: 120%;
+    background-color: var(--purple-primary);
+    border-radius: 8px;
+
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
     z-index: 1000;
     display: none;
 }
@@ -76,10 +92,16 @@ nav ul li ul.nav-dropdown {
 nav ul li ul.nav-dropdown li {
     display: block;
     margin-right: 0;
+    /* border-radius: 0; */
+}
+
+nav ul li ul.nav-dropdown li a {
+    /* border-radius: 0; */
 }
 
 nav ul li a:hover {
-    color: blueviolet;
+    /* color: blueviolet; */
+    background-color: var(--purple-dark);
 }
 
 nav ul li:hover ul.nav-dropdown {
