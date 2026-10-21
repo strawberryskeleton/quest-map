@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/*👉@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
     --red-primary: #ee1c25;
@@ -11,18 +11,18 @@
     --yellow-dark: #d8611d;
     --green-dark: #026d37;
 
-    /* --beige: #f3e9dc; */
-    /* --brown: #1e1b4b; */
+    ➡ --beige: #f3e9dc; ⬅
+    ➡ --brown: #1e1b4b; ⬅
     --purple-primary: #7f64e3;
     --purple-dark: #5d42be;
-    /* --brown: #0a3a40; */
+    ➡ --brown: #0a3a40; ⬅
     --white: #efebe0;
 
     --heading-font: "Rubik", sans-serif;
     --body-font: "Fredoka", sans-serif;
 
     font-family: "Fredoka", sans-serif;
-}
+}👈*/
 
 *,
 *::before,
@@ -39,14 +39,14 @@ body {
     min-height: 100vh;
 }
 
-.divider {
+/*👉.divider {
     width: 100%;
-    height: 10px; /* Thickness of the divider */
+    height: 10px; ➡ Thickness of the divider ⬅
     border: none;
     background: repeating-linear-gradient(
         to right,
         var(--purple-dark),
-        var(--purple-dark) 45px, /* Length of each dash */
+        var(--purple-dark) 45px, ➡ Length of each dash ⬅
         transparent 40px,
         transparent 65px );
 }
@@ -55,7 +55,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 5rem;
-    /* margin-bottom: 2rem; */
+    ➡ margin-bottom: 2rem; ⬅
 }
 
 .title h1 {
@@ -63,11 +63,13 @@ body {
     font-family: var(--heading-font);
     color: var(--purple-primary);
     line-height: 1.5;
-    /* text-decoration: underline dashed 8px var(--purple-dark); */
-}
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    ➡ text-decoration: underline dashed 8px var(--purple-dark); ⬅
+}👈*/
 
 /* ============================================================================== */
-nav {
+/*👉nav {
     width: 90%;
     
     position: fixed;
@@ -94,7 +96,7 @@ nav ul {
 nav ul li {
     position: relative;
     display: inline-block;
-    /* margin-right: 0.5rem; */
+    ➡ margin-right: 0.5rem; ⬅
 }
 
 nav ul li a {
@@ -102,10 +104,10 @@ nav ul li a {
     padding: 0.5rem 1.75rem;
     text-decoration: none;
     text-align: center;
-    /* background-color: var(--purple-dark); */
+    ➡ background-color: var(--purple-dark); ⬅
     color: var(--white);
     border-radius: 8px;
-    /* text-decoration: 1.5px underline wavy var(--white); */
+    ➡ text-decoration: 1.5px underline wavy var(--white); ⬅
 }
 
 nav ul li ul.nav-dropdown {
@@ -124,55 +126,55 @@ nav ul li ul.nav-dropdown {
 nav ul li ul.nav-dropdown li {
     display: block;
     margin-right: 0;
-    /* border-radius: 0; */
+    ➡ border-radius: 0; ⬅
 }
 
-/*👉nav ul li ul.nav-dropdown li a {
+nav ul li ul.nav-dropdown li a {
     ➡ border-radius: 0; ⬅
-}👈*/
+}
 
 nav ul li a:hover {
-    /* color: blueviolet; */
+    ➡ color: blueviolet; ⬅
     background-color: var(--purple-dark);
 }
 
 nav ul li:hover ul.nav-dropdown {
     display: block;
-}
+}👈*/
 
 
 
 /* ============================================================================== */
 
-#hero {
+/*👉#hero {
     width: 100vw;
     height: 100vh;
-    /* background-color: cornflowerblue; */
+    ➡ background-color: cornflowerblue; ⬅
     margin-top: 2rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    /* gap: rem; */
+    ➡ gap: rem; ⬅
 
     text-align: center;
 }
 
-/*👉#hero .hero-content {
+#hero .hero-content {
     position: relative;
     top: 50%;
     left: 50%;
 
-}👈*/
+}
 
 #hero h1 {
     font-size: 12rem;
     font-family: var(--heading-font);
     font-weight: 900;
-    /* letter-spacing: 5px; */
+    ➡ letter-spacing: 5px; ⬅
     line-height: 1;
-    /* text-align: center; */
+    ➡ text-align: center; ⬅
 }
 
 .blue {
@@ -195,7 +197,7 @@ nav ul li:hover ul.nav-dropdown {
     width: fit-content;
     margin: 0 auto;
     margin-top: 2rem;
-    /* background-color: #004588; */
+    ➡ background-color: #004588; ⬅
     text-align: left;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -204,13 +206,13 @@ nav ul li:hover ul.nav-dropdown {
 
 #hero .hero-info .hero-info-label {
     font-weight: 600;
-}
+}👈*/
 
 
 /* ============================================================================== */
 
-#about {
-    /* background-color: coral; */
+/*👉#about {
+    ➡ background-color: coral; ⬅
 
     display: flex;
     flex-direction: column;
@@ -239,10 +241,10 @@ nav ul li:hover ul.nav-dropdown {
 }
 
 #about .about-text {
-    /* background-color: coral; */
+    ➡ background-color: coral; ⬅
     border: 5px dashed var(--purple-primary);
     border-radius: 8px;
-    /* height: 100%; */
+    ➡ height: 100%; ⬅
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -270,4 +272,78 @@ nav ul li:hover ul.nav-dropdown {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 4rem;
+}👈*/
+
+/* ============================================================================== */
+
+/*👉
+#map {
+    ➡ background-color: cornflowerblue; ⬅
 }
+
+
+#map .year .year-heading {
+    width: 60%;
+    ➡ background-color: coral; ⬅
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+
+#map .year .year-map {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    ➡ gap: 2rem; ⬅
+}
+
+#map .year .year-map .checkpoint {
+    ➡ width: 50%; ⬅
+    height: 15rem;
+    ➡ border: 3px solid #000; ⬅
+    ➡ margin-top: 1rem; ⬅
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map .year .year-map .checkpoint.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+    font-size: 2rem;
+    color: var(--white);
+    background-color: var(--yellow-dark);
+    border-radius: 50%;
+    border: none;
+}
+
+#map .year .year-map .checkpoint.arrow-right img,
+#map .year .year-map .checkpoint.arrow-left img {
+    height: 100%;
+    ➡ width: 60%; ⬅
+}
+
+#map #year1 {
+    background-color: var(--yellow-primary);
+    color: var(--yellow-dark);
+}👈*/
