@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root {
+    --white: #f3f5f2;
+    --light-blue: #7cc1e7;
+    --blue: #4f90f6;
+    --beige: #f2d17e;
+    --brown: #58402e;
+
+    --heading-font: "Pixel Gamer Regular", sans-serif;
+    --body-font: "Fredoka", sans-serif;
+
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+@font-face {
+    font-family: "Pixel Gamer Regular";
+    src: url('./assets/PixelGamer-Regular.otf') format('opentype');
+}
 
 *,
 *::before,
@@ -10,6 +31,56 @@
 
 
 body {
-    background-color: var(--white);
     min-height: 100vh;
+    background-color: var(--beige);
+}
+
+
+
+nav {
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 80%;
+    background-color: var(--brown);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 2rem;
+
+    font-size: 1.3rem;
+    color: var(--white);
+    border-radius: 12px;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 1.25rem;
+    color: var(--white);
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav .logo i {
+    font-size: 1.75rem;
+}
+
+
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background: url('./assets/sky_and_grass.png');
+
 }
