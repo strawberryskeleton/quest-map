@@ -3,8 +3,12 @@
 :root {
     --white: #f3f5f2;
     --light-blue: #7cc1e7;
+    /* --light-blue: #55a6c3; */
     --blue: #4f90f6;
     --beige: #f2d17e;
+    --light-green: #6dbe47;
+    --green: #1d6517;
+    --dark-green: #054204;
     --brown: #58402e;
 
     --heading-font: "Pixel Gamer Regular", sans-serif;
@@ -70,10 +74,16 @@ nav ul {
 nav ul a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.25s ease-out;
+}
+
+nav ul a:hover {
+    color: var(--light-green);
 }
 
 nav .logo i {
     font-size: 1.75rem;
+    color: #d32a2a;
 }
 
 
@@ -83,4 +93,30 @@ nav .logo i {
     height: 100vh;
     background: url('./assets/sky_and_grass.png');
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding-top: 2rem;
+
+}
+
+#hero .hero-title h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 12rem;
+    line-height: 1;
+    color: var(--brown);
+}
+
+#hero .hero-desc-text p {
+    font-size: 1.3rem;
+    color: var(--dark-green);
+}
+
+#hero .hero-desc-text p span.bold {
+    font-weight: 600;
+    letter-spacing: 1px;
 }
