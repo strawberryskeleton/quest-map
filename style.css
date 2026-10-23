@@ -43,7 +43,7 @@ body {
 
 nav {
     position: fixed;
-    top: 2rem;
+    top: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
 
@@ -116,7 +116,78 @@ nav .logo i {
     color: var(--dark-green);
 }
 
-#hero .hero-desc-text p span.bold {
+span.bold {
+    font-family: var(--heading-font);
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+
+
+
+
+.title {
+    position: relative;
+    top: 1rem;
+    margin: 3rem;
+    /* background-color: cornflowerblue; */
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--heading-font);
+    color: var(--brown);
+}
+
+
+
+#about {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--light-green);
+    background: url('./assets/grass_new.png');
+
+    padding: 2rem;
+}
+
+#about .about-content {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-size: 1.2rem;
+    color: var(--dark-green);
+}
+
+#about .about-content span.bold {
+    color: var(--brown);
+    font-size: 1.3rem;
+}
+
+#about .about-content .top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about .about-content .top-row .top-row-content p {
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem;
+}
+
+#about .about-content .top-row .profile-img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px dashed var(--brown);
+}
+
+#about .about-content .top-row .profile-img img {
+    height: 100%;
+    width: 100%;
 }
