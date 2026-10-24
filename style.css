@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 :root {
-    --white: #f3f5f2;
+    /* --white: #f3f5f2; */
+    --white: #f9f2d2;
     --light-blue: #7cc1e7;
     /* --light-blue: #55a6c3; */
     --blue: #4f90f6;
-    --beige: #f2d17e;
+    /* --beige: #f2d17e; */
+    --beige: #f1dfb1;
     --light-green: #6dbe47;
     --green: #1d6517;
     --dark-green: #054204;
     --brown: #58402e;
+    --dark-brown: #2b1d12;
+    --red: #d32a2a;
 
     --heading-font: "Pixel Gamer Regular", sans-serif;
     --body-font: "Fredoka", sans-serif;
@@ -84,7 +88,7 @@ nav ul a:hover {
 
 nav .logo i {
     font-size: 1.75rem;
-    color: #d32a2a;
+    color: var(--red);
 }
 
 
@@ -215,14 +219,18 @@ span.bold {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(10, auto);
     gap: 8px;
 }
 
 #map .year-map .node {
-    background-color: coral;
+    background-color: var(--brown);
     border: 2px solid black;
     min-height: 5rem;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 #map .year-map .node1 {
@@ -290,7 +298,8 @@ span.bold {
 #map .year-map .arrow-lr,
 #map .year-map .arrow-rl {
     width: 55%;
-    height: 10rem;
+    height: 10.5rem;
+    overflow: hidden;
     /* display: inline-block; */
     /* height: min-content; */
     margin: 0 auto;
@@ -309,4 +318,94 @@ span.bold {
     /* display: block; */
     width: 100%;
     object-fit: contain;
+}
+
+
+#map .year-map .blank {
+    background: none;
+    border: none;
+}
+
+#map .year-map .year-heading {
+    height: 10rem;
+    width: 150%;
+    /* position: relative; */
+    /* top: 50%; */
+    /* bottom: 0; */
+    /* margin: auto 0; */
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: var(--heading-font);
+    color: var(--brown);
+
+    display: flex;
+    gap: 2rem;
+}
+
+/*👉#map .year-map .year-heading i {
+    font-size: 6rem;
+}👈*/
+
+#map .year-map .year-heading .year-heading-icon {
+    height: 100%;
+}
+
+#map .year-map .year-heading .year-heading-icon img {
+    height: 100%;
+}
+
+/*👉#map .year-map .year-heading-icon {
+    height: 50%;
+    position: relative;
+    top: 30%;
+    ➡ left: 50%; ⬅
+    background: none;
+    border: none;
+    justify-content: flex-end;
+
+    font-size: 6rem;
+    ➡ text-align: right; ⬅
+    color: var(--red);
+}👈*/
+
+
+#map .year-map .checkpoint {
+    min-height: 10rem;
+
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    
+    font-size: 2rem;
+    /* background-color: transparent; */
+    background: url('./assets/checkpoint2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+    padding: 1rem;
+    transition: all 0.25s ease-out;
+}
+
+#map .year-map .checkpoint p {
+    /* font-family: var(--heading-font); */
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--white);
+    /* -webkit-text-stroke: 3px var(--brown);  */
+     text-shadow: 
+    -2px -2px 0 var(--dark-brown),  
+     2px -2px 0 var(--dark-brown),
+    -2px  2px 0 var(--dark-brown),
+     2px  2px 0 var(--dark-brown);
+    /* background: var(--blue); */
+}
+
+
+#map .year-map .checkpoint:hover {
+    transform: scale(1.1);
 }
