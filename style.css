@@ -46,6 +46,7 @@ nav {
     top: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 100;
 
     width: 80%;
     background-color: var(--brown);
@@ -141,7 +142,7 @@ span.bold {
 
 #about {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     background-color: var(--light-green);
     background: url('./assets/grass_new.png');
@@ -190,4 +191,122 @@ span.bold {
 #about .about-content .top-row .profile-img img {
     height: 100%;
     width: 100%;
+}
+
+
+
+#map {
+    /* min-height: 100vh; */
+    padding: 2rem;
+
+    background-color: var(--light-green);
+    background: url('./assets/grass_new.png');
+    /* border: 2px solid red; */
+    /* background-size: cover; */
+    background-repeat: repeat-y;
+}
+
+#map .year-map {
+    position: relative;
+    width: 80%;
+    /* height: 100vh; */
+    margin: 0 auto;
+    /* background-color: cornflowerblue; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 8px;
+}
+
+#map .year-map .node {
+    background-color: coral;
+    border: 2px solid black;
+    min-height: 5rem;
+}
+
+#map .year-map .node1 {
+    grid-row: span 2 / span 2;
+}
+
+#map .year-map .node2 {
+    grid-row: span 2 / span 2;
+}
+
+#map .year-map .node3 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+#map .year-map .node4 {
+    grid-row-start: 4;
+}
+
+#map .year-map .node5 {
+    grid-row-start: 4;
+}
+
+#map .year-map .node6 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+#map .year-map .node7 {
+    grid-row-start: 6;
+}
+
+#map .year-map .node8 {
+    grid-row-start: 6;
+}
+
+#map .year-map .node9 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 7;
+}
+
+#map .year-map .node10 {
+    grid-row-start: 8;
+}
+
+#map .year-map .node11 {
+    grid-row-start: 8;
+}
+
+#map .year-map .node12 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 9;
+}
+
+#map .year-map .node13 {
+    grid-row-start: 10;
+}
+
+#map .year-map .node14 {
+    grid-row-start: 10;
+}
+
+
+
+#map .year-map .arrow-lr,
+#map .year-map .arrow-rl {
+    width: 55%;
+    height: 10rem;
+    /* display: inline-block; */
+    /* height: min-content; */
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+
+    /*👉background: url('./assets/arrow_lr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 / 9;👈*/
+}
+
+#map .year-map .arrow-lr img,
+#map .year-map .arrow-rl img {
+    /* height: 100%; */
+    /* display: block; */
+    width: 100%;
+    object-fit: contain;
 }
