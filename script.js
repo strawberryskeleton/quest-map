@@ -55,5 +55,22 @@ function showQuestData (id) {
     let data = questData[id]
 
     console.log(data)
+
+    questTitle.innerText = data.title
+    questDesc.innerText = data.desc
+    questWhy.innerText = data.why
+
+    questSmart.innerHTML = `
+        <span class="bold">S :</span> ${data["smart"][0]}
+        <br>
+        <span class="bold">M :</span> ${data["smart"][1]}
+        <br>
+        <span class="bold">A :</span> ${data["smart"][2]}
+        <br>
+        <span class="bold">R :</span> ${data["smart"][3]}
+        <br>
+        <span class="bold">T :</span> ${data["smart"][4]}
+        <br>
+    `
 }
 // END - SHOW DATA
