@@ -3,7 +3,7 @@
 :root {
     /* --white: #f3f5f2; */
     --white: #f9f2d2;
-    --light-blue: #7cc1e7;
+    /* --light-blue: #7cc1e7; */
     /* --light-blue: #55a6c3; */
     --blue: #4f90f6;
     /* --beige: #f2d17e; */
@@ -21,7 +21,8 @@
     font-family: "Fredoka", sans-serif;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-}
+
+    scrollbar-color: var(--dark-brown) var(--light-green)}
 
 @font-face {
     font-family: "Pixel Gamer Regular";
@@ -36,13 +37,20 @@
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     min-height: 100vh;
     background-color: var(--beige);
+    cursor: url('your-cursor-image.png') 0 0, auto;
 }
 
+::selection {
+  background-color: var(--green); /* The highlight background color */
+  color: var(--beige);            /* The text color inside the highlight */
+}
 
 
 nav {
@@ -529,6 +537,12 @@ span.bold {
 
     font-size: 1.1rem;
     color: var(--dark-green);
+
+    transition: all 0.3s ease-out;
+}
+
+#side-quests .sidequests-grid .quest:hover {
+    transform: scale(1.05);
 }
 
 #side-quests .sidequests-grid .quest .quest-num {
@@ -629,10 +643,22 @@ span.bold {
     vertical-align: top;
 }
 
+/*👉#credits .credits-content .credits-table tbody:last-child {
+    border-bottom: none;
+}👈*/
+
 #credits .credits-content .credits-table th {
     font-family: var(--heading-font);
     font-size: 1.3rem;
     letter-spacing: 2px;
+}
+
+#credits .credits-content .credits-table tbody tr {
+    transition: all 0.2s ease-out;
+}
+
+#credits .credits-content .credits-table tbody tr:hover {
+    transform: scale(1.02);
 }
 
 
@@ -648,4 +674,9 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--light-green);
+    transition: all 0.25s ease-out;
+}
+
+footer a:hover {
+    color: var(--green);
 }

@@ -1,10 +1,10 @@
 # quest-map
 map for uni life quests (made to prove a point to my sister)
 
-- hihghlight color
-- custom cursor
-- scrollbar design
-- smooth scrolling
+x hihghlight color
+NOPE custom cursor
+x scrollbar design
+x smooth scrolling
 - hover effects
 
 
