@@ -9,12 +9,12 @@ const questDesc = document.querySelector('#quest-info-desc')
 const questSmart = document.querySelector('#quest-info-smart')
 const questWhy = document.querySelector('#quest-info-why')
 
-console.log('quest-info:')
-console.log(questTitle.innerText)
-console.log(questDesc.innerText)
-console.log(questSmart.innerText)
-console.log(questWhy.innerText)
-console.log('\n')
+// console.log('quest-info:')
+// console.log(questTitle.innerText)
+// console.log(questDesc.innerText)
+// console.log(questSmart.innerText)
+// console.log(questWhy.innerText)
+// console.log('\n')
 
 // EVENT LISTENERS
 closeBtn.addEventListener('click', () => {
@@ -23,7 +23,7 @@ closeBtn.addEventListener('click', () => {
 
 mapNodes.forEach(node => {
     node.addEventListener('click', (e) => {
-        console.log(e.currentTarget.id)
+        // console.log(e.currentTarget.id)
         let nodeID = e.currentTarget.id
         showQuestData(nodeID)
 
@@ -35,16 +35,103 @@ mapNodes.forEach(node => {
 // DATA
 const questData = {
     "y1-n1": {
-        title: "Explore",
-        desc: "lorem imsum dolor sit amet",
-        smart: ["s", "m", "a", "r", "t"],
-        why: "lorem ipsum dolor sit amet"
+        title: "Explore the uni and see what can i do",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y1-n2": {
-        title: "Learn",
-        desc: "lorem imsum dolor sit amet",
-        smart: ["s", "m", "a", "r", "t"],
-        why: "lorem ipsum dolor sit amet"
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y1-n3": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y1-n4": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+
+    "y2-n1": {
+        title: "Explore the uni and see what can i do",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y2-n2": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y2-n3": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y2-n4": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+
+    "y3-n1": {
+        title: "Explore the uni and see what can i do",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y3-n2": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y3-n3": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y3-n4": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+
+    "y4-n1": {
+        title: "Explore the uni and see what can i do",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y4-n2": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y4-n3": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
+    },
+    "y4-n4": {
+        title: "Learn something new and exciting",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        smart: ["something", "something", "something", "something", "something"],
+        why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
 }
 // END - DATA
@@ -54,7 +141,7 @@ const questData = {
 function showQuestData (id) {
     let data = questData[id]
 
-    console.log(data)
+    // console.log(data)
 
     questTitle.innerText = data.title
     questDesc.innerText = data.desc
