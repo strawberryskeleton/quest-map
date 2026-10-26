@@ -1,6 +1,11 @@
 # quest-map
 map for uni life quests (made to prove a point to my sister)
 
+- hihghlight color
+- custom cursor
+- scrollbar design
+- smooth scrolling
+- hover effects
 
 
 Credits:
@@ -17,4 +22,3 @@ assets:
 designing: i did
 
 Pixel art of a cute red stag beetle adventurer standing on a grassy hill holding a glowing lantern and a sword, wearing a green hooded cloak. Bright blue sky with fluffy clouds, cozy RPG style, clean pixel graphics, vertical format.
-
