@@ -653,6 +653,14 @@ span.bold {
     letter-spacing: 2px;
 }
 
+#credits .credits-content .credits-table td a {
+    color: var(--light-green);
+}
+
+/*👉#credits .credits-content .credits-table td a:hover {
+    color: var(--green);
+}👈*/
+
 #credits .credits-content .credits-table tbody tr {
     transition: all 0.2s ease-out;
 }

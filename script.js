@@ -47,88 +47,88 @@ const questData = {
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y1-n3": {
-        title: "Learn something new and exciting",
+        title: "Lorem ipsum doro sit amet",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y1-n4": {
-        title: "Learn something new and exciting",
+        title: "Lorem ipsum dolor sit amet",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
 
     "y2-n1": {
-        title: "Explore the uni and see what can i do",
+        title: "Explore different fields in engg",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y2-n2": {
-        title: "Learn something new and exciting",
+        title: "Find internships",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y2-n3": {
-        title: "Learn something new and exciting",
+        title: "Build a cool exciting project",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y2-n4": {
-        title: "Learn something new and exciting",
+        title: "Lorem ipsum dolor sit amet",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
 
     "y3-n1": {
-        title: "Explore the uni and see what can i do",
+        title: "Pick a specialization",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y3-n2": {
-        title: "Learn something new and exciting",
+        title: "Build a cool exciting project",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y3-n3": {
-        title: "Learn something new and exciting",
+        title: "Go on semester exchange abroad",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y3-n4": {
-        title: "Learn something new and exciting",
+        title: "Explore inter-disciplinary subjects",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
 
     "y4-n1": {
-        title: "Explore the uni and see what can i do",
+        title: "Get a super high GPA",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y4-n2": {
-        title: "Learn something new and exciting",
+        title: "Make a in-depth cool project",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y4-n3": {
-        title: "Learn something new and exciting",
+        title: "Do specialization in one field",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."
     },
     "y4-n4": {
-        title: "Learn something new and exciting",
+        title: "Find a job",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, minima debitis recusandae eius eaque illum? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         smart: ["something", "something", "something", "something", "something"],
         why: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam at, dolore dignissimos enim, veritatis maxime quibusdam blanditiis doloremque commodi tempora et. Accusantium et, eius consequatur delectus sunt necessitatibus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi."

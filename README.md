@@ -12,9 +12,30 @@ Credits:
 
 color palette --> https://in.pinterest.com/pin/891431320002646327/
 https://in.pinterest.com/pin/427701295885740494/
+
+fonts: https://www.dafont.com/pixel-gamer.font?text=year+1
+https://fonts.google.com/specimen/Fredoka
+
+assets: [hero bg](https://in.pinterest.com/pin/1128573987906061983/)
+[grass][copilot generated]
+[close btn][copliot]
+[rock][copilot]
+[arrow][copilot]
+[progress bar][copilot]
+[year checkpoint][copilot]
+[icon pack][remixicon]
+
+tools:
+[photoroom bg remover]
+[png to svg]
+[canva]
+[css grid generator]
+
+
+
+
 https://in.pinterest.com/pin/995788167608111857/
 
-fonts: https://www.dafont.com/pixel-gamer.font?text=year+1 , google fonts wala
 
 assets:
 [pinterest se hero bg] [rest all generated with copilot]
