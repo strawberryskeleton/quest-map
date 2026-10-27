@@ -5,7 +5,7 @@ x hihghlight color
 NOPE custom cursor
 x scrollbar design
 x smooth scrolling
-- hover effects
+x hover effects
 
 
 Credits:
