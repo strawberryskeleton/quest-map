@@ -1,45 +1,57 @@
-# quest-map
-map for uni life quests (made to prove a point to my sister)
+# Quest Map
+Roadmap for univeristy life plans and goals
 
-x hihghlight color
-NOPE custom cursor
-x scrollbar design
-x smooth scrolling
-x hover effects
+> (made to prove a point to my sister)
 
 
-Credits:
-
-color palette --> https://in.pinterest.com/pin/891431320002646327/
-https://in.pinterest.com/pin/427701295885740494/
-
-fonts: https://www.dafont.com/pixel-gamer.font?text=year+1
-https://fonts.google.com/specimen/Fredoka
-
-assets: [hero bg](https://in.pinterest.com/pin/1128573987906061983/)
-[grass][copilot generated]
-[close btn][copliot]
-[rock][copilot]
-[arrow][copilot]
-[progress bar][copilot]
-[year checkpoint][copilot]
-[icon pack][remixicon]
-
-tools:
-[photoroom bg remover]
-[png to svg]
-[canva]
-[css grid generator]
+## Features
+- custom ui design
+- pixel art theme
+- Sections:
+    - hero
+    - about
+    - map (with year 1-4 roadmaps maps)
+    - side quests
+    - credits (university style citation)
+    - navbar/footer
+- data picked from js for the checkpoint quest overlay
+- open/close checkpoint quest overlay using js
+- small design features like custom selection color, custom scrollbar colors, hover effects, etc. 
+- Vanilla HTML/CSS/JS for making this
 
 
+## Project Screenshots
+
+hero section
+![hero](./screenshots/hero.png)
+
+about section
+![about](./screenshots/about.png)
+
+map section
+![map](./screenshots/map.png)
+![overlay](./screenshots/map-overlay.png)
+
+side quests section
+![sq](./screenshots/sidequests.png)
+
+credits section
+![credits](./screenshots/credits.png)
 
 
-https://in.pinterest.com/pin/995788167608111857/
+## Why I Made This
+Basically my older sister is in unversity and she got an assignment to make a S.M.A.R.T goals type plan for the entire 4 years of university. She got an option to make a website or write an essay for this. She chose the essay but I think website would be wayyy cooler. Therefore, to prove my point on how cool and taking almost the same amount of time would the website assignment be, I made this project.
+(unfortunately for me, she didn't care that this looks soo much cooler.....)
+
+I designed the entire layout by myself and coded (almost all of it) myself.
+This was a web dev practice project.
 
 
-assets:
-[pinterest se hero bg] [rest all generated with copilot]
+## Credits
+- made by me
+- main credits: [please refer to the credits section]
 
-designing: i did
-
-Pixel art of a cute red stag beetle adventurer standing on a grassy hill holding a glowing lantern and a sword, wearing a green hooded cloak. Bright blue sky with fluffy clouds, cozy RPG style, clean pixel graphics, vertical format.
+> ## AI USAGE
+> - generate certain assets (refer to the credits section on the website)
+> - code for making this responsive (for the main code, made minor adjustments myself)
+> - minor debugging for random small issues (like a horizontal scrollbar appearing out of nowhere, making the background fit properly)
