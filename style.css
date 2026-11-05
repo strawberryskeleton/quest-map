@@ -1030,3 +1030,127 @@ footer a:hover {
         font-size: 0.85rem;
     }
 }
+
+/* --------------------------------------------------------------------------
+   5. Large Screens, 1920px & 2560px Displays (>= 1441px)
+   -------------------------------------------------------------------------- */
+@media screen and (min-width: 1441px) {
+    /* Scale up base font size slightly so text isn't tiny on massive monitors */
+    body {
+        font-size: 1.15rem;
+    }
+
+    nav {
+        width: 60%;
+        max-width: 1300px;
+        padding: 1.25rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 2.5rem;
+    }
+
+    #hero .hero-title h1 {
+        font-size: 15rem;
+    }
+
+    #hero .hero-desc-text p {
+        font-size: 1.6rem;
+    }
+
+    /* Expand container widths gracefully for wide displays */
+    #about .about-content,
+    #map .year-map,
+    #side-quests .sidequests-grid,
+    #credits .credits-content {
+        width: 65%;
+        max-width: 1200px;
+    }
+
+    #about .about-content {
+        font-size: 1.4rem;
+        gap: 3rem;
+    }
+
+    #about .about-content .top-row .profile-img {
+        width: 22rem;
+        height: 22rem;
+    }
+
+    .title {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
+
+    /* Widen map components to match larger layout */
+    #map .year-map .year-heading {
+        font-size: 4.5rem;
+        height: 12rem;
+    }
+
+    #map .year-map .checkpoint {
+        min-height: 12rem;
+    }
+
+    #map .year-map .checkpoint p {
+        font-size: 3.5rem;
+    }
+
+    #map .year-map .arrow-lr,
+    #map .year-map .arrow-rl {
+        width: 60%;
+        height: 13rem;
+    }
+
+    /* Side quests styling for wide viewports */
+    #side-quests .sidequests-grid .quest {
+        min-height: 28rem;
+        padding: 5rem 6rem;
+        font-size: 1.3rem;
+    }
+
+    #side-quests .sidequests-grid .quest h3 {
+        font-size: 2.2rem;
+    }
+
+    #side-quests .sidequests-grid .quest span.bold {
+        font-size: 1.5rem;
+    }
+
+    #side-quests .sidequests-grid .quest .progress-bar .progress-step {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    /* Credits table sizing */
+    #credits .credits-content .credits-table th {
+        font-size: 1.6rem;
+    }
+
+    #credits .credits-content .credits-table td {
+        font-size: 1.3rem;
+        padding: 1.5rem 2rem;
+    }
+
+    /* Modal Overlay adjustments for giant screens */
+    #overlay .quest-container {
+        width: 60vw;
+        max-width: 1100px;
+        height: 70vh;
+        max-height: 750px;
+        padding: 6rem;
+    }
+
+    #overlay .quest-container .quest-info {
+        font-size: 1.5rem;
+    }
+
+    #overlay .quest-container .quest-info h2 {
+        font-size: 3rem;
+    }
+
+    #overlay .quest-container .quest-info .quest-info-text-smart {
+        font-size: 2.3rem;
+    }
+}
