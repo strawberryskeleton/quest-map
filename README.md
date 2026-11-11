@@ -1,9 +1,12 @@
 # Quest Map
-Roadmap for univeristy life plans and goals
+Roadmap for univeristy life plans and goals [template edition]
 
 > (made to prove a point to my sister)
 
 This is a website where I have made a roadmap to map the goals someone might have in university. It starts from description and about of the person and states the main goal. Then we break the main goal into S.M.A.R.T style goals for each year with atleast 4 checkpoints. And since some fun is also important, there is a side-quest section to put any non-main-goal-related goals with a progress bar. This layout can help you see your goals in one (nice-looking) place without having to open random diaries etc. It is very easy to update the goals as well (just change the list in JS file) so if there's any change of plans or re-adjustment needed it can be done.
+
+> NOTE: this is a template with a lot of Lorem text.
+> if you wish to use this for yourself, you can change roadmap section text in js file, and other section's from html file.
 
 ## Features
 - custom ui design
